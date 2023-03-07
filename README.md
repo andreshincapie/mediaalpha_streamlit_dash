@@ -1,6 +1,4 @@
-# Interactive Dashboard with Python - Streamlit
-
-MediaAlpha Takehome Dashboard
+# MediaAlpha Takehome - Interactive Dashboard with Streamlit
 
 ## Run the app
 
@@ -13,8 +11,12 @@ ctrl-c
 ```
 
 ## Dashboard
-[Insert Link]
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://andreshincapie-mediaalpha-streamlit-dash-app-7sds0a.streamlit.app/)
 
-## Screenshot
+## Screenshots
 
-![Dashboard Screenshot](screenshot.jpg)
+![Questions 1 and 2](images/shot1.png)
+
+![Question 3](images/shot2.png)
+
+![Question 4](images/shot3.png)
