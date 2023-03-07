@@ -1,6 +1,4 @@
-# Interactive Dashboard with Python - Streamlit
-
-MediaAlpha Takehome Dashboard
+# MediaAlpha Takehome - Interactive Dashboard with Streamlit
 
 ## Run the app
 
