@@ -82,7 +82,7 @@ clicks_in_three_hours = int(max_clicks['clicks_next_3_hours'].values[0])
 
 clicks_result_str = " * The 3 hour window with the largest amount of clicks happens on **" \
                       + str(clicks_start_date) + " between "  + clicks_start_time + " and " + clicks_end_time \
-                      + "**, with a total of **:orange[" + str(clicks_in_three_hours) + " clicks]!**"
+                      + "**, with a total of **" + str(clicks_in_three_hours) + " clicks!**"
 
 st.markdown("##### **Question 1**: Which 3 hour window across the entire date range shows the largest amount of clicks? :clock3:")
 st.markdown(clicks_result_str)
