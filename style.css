@@ -1,9 +1,14 @@
-/* Centering text in each gray box */
+/* Move block container higher */
+div.block-container.css-18e3th9.egzxvld2 {
+    margin-top: -5em;
+  }
+
+/* Centering text in each metric box */
 div.css-ocqkz7.e1tzin5v4 {
     text-align: center;
   }
 
-/* Row 1 */
+/* Metrics Row */
 div.css-1r6slb0.e1tzin5v2 {
     background-color: #FFFFFF;
     border: 1px solid #CCCCCC;
