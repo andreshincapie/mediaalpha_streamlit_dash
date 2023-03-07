@@ -114,7 +114,7 @@ tablet_pct_share = str(round(tablet_pct_share)) + '%'
 st.markdown("_______________")
 
 st.markdown("##### **Question 2**: For the 3 hour window you found in question 1, what percent of the clicks in these 3 hours were “mobile”? :iphone:")
-st.markdown("Click on the legend to remove specific devices from the chart!")
+st.markdown("**Note:** Click on the legend to remove specific devices from the chart")
 
 pie_chart = px.pie(by_device, title=" ", values='clicks', names='device')
 
