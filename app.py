@@ -87,7 +87,6 @@ clicks_result_str = " * The 3 hour window with the largest amount of clicks happ
 st.markdown("##### **Question 1**: Which 3 hour window across the entire date range shows the largest amount of clicks? :clock3:")
 st.markdown(clicks_result_str)
 st.markdown('\n')
-st.markdown('\n')
 
 #### Question 2: For the 3 hour window you found in question 1, what percent of the clicks in these 3 hours were “mobile”?
 
@@ -221,9 +220,6 @@ st.plotly_chart(fig_line, use_container_width=True)
 
 st.markdown("**Bonus Graph!** :tada: I also wanted to show the distribution of device clicks per product as an example of other things we can do with Streamlit.")
 st.plotly_chart(fig_bar, use_container_width=True)
-
-st.markdown('\n')
-st.markdown('\n')
 
 #### Question 4: For each product, find the hour (time) that shows the highest RPC
 
