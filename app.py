@@ -82,7 +82,7 @@ clicks_in_three_hours = int(max_clicks['clicks_next_3_hours'].values[0])
 
 clicks_result_str = " * The 3 hour window with the largest amount of clicks happens on **" + str(clicks_start_date) + " between "  + clicks_start_time + " and " + clicks_end_time + "**, with a total of **:orange[" + str(clicks_in_three_hours) + "] clicks!**"
 
-st.markdown("##### **Question 1**: Which 3 hour window across the entire date range shows the largest amount of clicks?")
+st.markdown("##### **Question 1**: Which 3 hour window across the entire date range shows the largest amount of clicks? :clock3:")
 st.markdown(clicks_result_str)
 st.markdown('\n')
 st.markdown('\n')
@@ -111,8 +111,8 @@ tablet_pct_share = str(round(tablet_pct_share)) + '%'
 
 st.markdown("_______________")
 
-st.markdown("##### **Question 2**: For the 3 hour window you found in question 1, what percent of the clicks in these 3 hours were “mobile”?")
-st.markdown("Click percentage from all devices displayed for illustration purposes.")
+st.markdown("##### **Question 2**: For the 3 hour window you found in question 1, what percent of the clicks in these 3 hours were “mobile”? :iphone:")
+st.markdown("Click on the legend to remove specific devices from the chart!")
 
 pie_chart = px.pie(by_device, title=" ", values='clicks', names='device')
 
@@ -153,7 +153,7 @@ max_date = pd.to_datetime(max(date_list))
 
 st.markdown("_______________")
 
-st.markdown("##### **Question 3**: Graph the time series of clicks on datetime.")
+st.markdown("##### **Question 3**: Graph the time series of clicks on datetime :chart_with_upwards_trend:")
 
 # Create a slider for the line graph
 # date_selection = st.slider('Date:', 
@@ -217,7 +217,7 @@ fig_bar.update_layout({
 # Show graphs on Streamlit Dash
 st.plotly_chart(fig_line, use_container_width=True)
 
-st.markdown("**Bonus Graph!** I also wanted to show the distribution of device clicks per product as an example of other things we can do with Streamlit.")
+st.markdown("**Bonus Graph!** :tada: I also wanted to show the distribution of device clicks per product as an example of other things we can do with Streamlit.")
 st.plotly_chart(fig_bar, use_container_width=True)
 
 st.markdown('\n')
@@ -240,6 +240,6 @@ max_hour_df.drop('index', axis=1, inplace=True)
 st.markdown("_______________")
 
 # Display in Streamlit
-st.markdown("##### **Question 4**: For each product, find the hour (time) that shows the highest RPC")
+st.markdown("##### **Question 4**: For each product, find the hour (time) that shows the highest RPC :moneybag:")
 
 st.table(max_hour_df)
